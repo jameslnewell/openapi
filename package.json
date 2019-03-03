@@ -1,0 +1,29 @@
+{
+  "name": "openapi",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "author": "James Newell <james@digitaledgeit.com.au>",
+  "dependencies": {
+    "@types/node": "^11.9.5",
+    "ajv": "^6.9.2",
+    "type-is": "^1.6.16"
+  },
+  "devDependencies": {
+    "@jameslnewell/editor-config": "^1.0.0",
+    "@jameslnewell/prettier-config": "^1.0.0",
+    "@jameslnewell/tslint-config": "^0.1.0",
+    "@jameslnewell/typescript-config": "^2.0.1",
+    "@types/jest": "^24.0.9",
+    "jest": "^24.1.0",
+    "js-yaml": "^3.12.2",
+    "prettier": "^1.16.4",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.13.0",
+    "typescript": "^3.3.3333"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "license": "MIT"
+}

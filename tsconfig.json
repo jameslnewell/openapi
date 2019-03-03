@@ -1,0 +1,7 @@
+{
+  // "extends": "./node_modules/@jameslnewell/typescript-config",
+  "compilerOptions": {
+    "lib": ["esnext", "dom"],
+    "moduleResolution": "node"
+  }
+}
